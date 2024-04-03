@@ -14,6 +14,6 @@ public class Sanglier extends Produit {
 
 	@Override
 	public void description() {
-		System.out.println(getName() + " de " + poids + " kg chassé par " + chasseur.getNom() + ".\n");
+		System.out.println(getName() + " de " + poids + " " +Unite.KG.toString() + " chassé par " + chasseur.getNom() + ".\n");
 	}
 }
